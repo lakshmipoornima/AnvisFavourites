@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
+  height:auto;
+ 
 }
 
 .App-logo {
@@ -13,6 +16,12 @@
   }
 }
 
+h2{
+  font-family: 'Snowburst One', cursive;
+}
+h2 span{
+  color: red;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

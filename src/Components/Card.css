@@ -1,0 +1,16 @@
+.card{
+    width: 18rem;
+    background-color: grey;
+    text-align: left;
+    height: 550px;
+}
+img{
+    height: 300px;
+    width:18rem;
+}
+.cardmaindiv{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
