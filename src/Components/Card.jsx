@@ -9,11 +9,11 @@ import { SongContext } from '../store/SongContext'
 
 
 export const Card = ({ song, id }) => {
-    let navigate=useNavigate()
-    let context=useContext(SongContext)
+    let navigate = useNavigate()
+    let context = useContext(SongContext)
 
-    let imgSource=`/images/${song.imgUrl}`
-    
+    let imgSource = `/images/${song.imgUrl}`
+
 
     const gotoSong = () => {
         console.log(song);
@@ -26,19 +26,21 @@ export const Card = ({ song, id }) => {
     return (
         <div className='cardmaindiv'>
             <div className="card" >
-                
-                <img src={imgSource} alt={song.album} />
-                <div className="card-body">
-                    <div className='musicdetails'>
-                        <p><span>Album</span>: {song.album}</p>
-                        <p><span>Artist</span>: {song.artist}</p>
-                        <p><span>Released</span>: {song.released}</p>
-                        <p><span>Genre</span>: {song.genre}</p>
+                <div className='innercard'>
+                    <div className='imgdiv'>
+
+                        <img src={imgSource} alt={song.album} />
                     </div>
-                    <div>
-                            <button className='btn btn-danger ' onClick={gotoSong} style={{ marginInlineStart: 100 }}>
+                    <div className="card-body">
+                        <div className='musicdetails'>
+                            <p><span>Album</span> </p>
+                            <p>{song.album}</p>
+                        </div>
+                        <div className='buttondiv'>
+                            <button className='btn btn-danger ' onClick={gotoSong} >
                                 <FontAwesomeIcon icon={faPlay} />
                             </button>
+                        </div>
                     </div>
                 </div>
             </div>

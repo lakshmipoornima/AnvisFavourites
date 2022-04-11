@@ -1,16 +1,35 @@
 .card{
-    width: 18rem;
-    background-color: grey;
+    width: 10rem;
+    background-color: black;
     text-align: left;
-    height: 550px;
+    height: 20rem;
+    color: white;
+    
+}
+.card :hover {
+    background-color: #3A3845;
+    
+}
+.innercard{
+    text-align: center;
 }
 img{
-    height: 300px;
-    width:18rem;
+   
+    height: 8rem;
+    width:8rem;
 }
+.imgdiv{
+    text-align: center;
+}
+
 .cardmaindiv{
     display: inline-block;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 2% 3%;
+}
+
+p{
+    text-align: center;
+}
+.buttondiv{
+    text-align: center;
 }

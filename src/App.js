@@ -47,15 +47,17 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Layout>
-        <Routes>
-          <Route path="/" element={<SongList songslist={songslist}/>} />
-          <Route path="/song" element={<SongSelected />} />
-          <Route path="/songadmin" element={<SongAdmin addSong={addSong} />} />
-        </Routes>
-      </Layout>
-    </div>
+      <div className="App">
+        <Layout>
+          <Routes>
+            <Route path="/" element={<SongList songslist={songslist} />} />
+            <Route path="/song" element={<SongSelected />} />
+            <Route path="/songadmin" element={<SongAdmin addSong={addSong} />} />
+          </Routes>
+        </Layout>
+
+      </div>
+      
   );
 }
 

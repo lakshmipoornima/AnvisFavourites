@@ -1,3 +1,22 @@
 Link{
     color: white;
 }
+.searchdiv{
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.form-inline.in{
+    text-align: right;
+    display: inline-block;
+    padding-left: 50%;
+    
+}
+.form-control{
+    display: inline-block;
+    width:50%;
+    margin-right: 10px;
+}
+.form-inline .my-lg-0{
+    margin-left: 50%;
+}

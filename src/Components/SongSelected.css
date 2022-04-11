@@ -3,9 +3,35 @@
     background-color: rgb(14, 17, 17);
     box-shadow: 5px;
     border-radius: 5px;
-    width: 300px;
+    width: 70%;
  }
- img{
+ .cardselected img{
     height: 300px;
-    width:200px;
+    width:100%;
 }
+.cardselected{
+    width: 80%;
+    background-color: black;
+    text-align: center; 
+    top: 5%;
+    height: 30rem;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+   
+}
+.cardselectedmain{
+    
+    margin-top: 5%;
+    min-height: auto;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.col2{
+    background-color:black;
+    position: relative;
+    
+}
+
